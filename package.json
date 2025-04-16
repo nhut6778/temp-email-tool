@@ -1,6 +1,7 @@
 {
   "name": "temp-email-tool",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "A temporary email tool for email testing",
   "main": "index.js",
   "scripts": {
@@ -8,6 +9,15 @@
     "dev": "nodemon index.js",
     "build": "echo 'No build step needed'",
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "description": "A simple temporary email tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "build": "npm run clean && npm run compile", 
+    "clean": "rimraf build", 
+    "compile": "webpack --mode production"
+>>>>>>> d7be0b2 (Fix dependencies)
   },
   "keywords": [
     "email",
@@ -19,7 +29,26 @@
   "dependencies": {
     "express": "^4.17.1",
     "ejs": "^3.1.6",
+<<<<<<< HEAD
     "nodemon": "^2.0.15"
   },
   "devDependencies": {}
+=======
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Nhut",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhut6778/temp-email-tool.git"
+  }
+>>>>>>> d7be0b2 (Fix dependencies)
 }
