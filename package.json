@@ -4,10 +4,10 @@
   "description": "A temporary email tool for email testing",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",  // Lệnh chạy ứng dụng của bạn
-    "dev": "nodemon index.js", // Lệnh cho môi trường phát triển, sử dụng nodemon để tự động tái khởi động server
-    "build": "echo 'No build step needed'", // Nếu không có build step đặc biệt, bạn có thể bỏ qua hoặc thêm lệnh build
-    "test": "echo \"Error: no test specified\" && exit 1"  // Lệnh mặc định nếu không có test
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step needed'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "email",
@@ -17,11 +17,9 @@
   "author": "Nhut",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",  // Framework Express để tạo ứng dụng web
-    "ejs": "^3.1.6",       // EJS dùng để render views
-    "nodemon": "^2.0.15"    // Dùng trong môi trường phát triển để tự động tái khởi động server
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "nodemon": "^2.0.15"
   },
-  "devDependencies": {
-    // Nếu bạn có các công cụ phát triển (Webpack, Babel, TypeScript...), bạn có thể thêm vào đây
-  }
+  "devDependencies": {}
 }
