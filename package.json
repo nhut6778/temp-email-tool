@@ -24,8 +24,19 @@
     "tool",
     "email-tu-huy",
     "temp-email-service",
-   "email-tam-thoi-viet-nam",
-    "nhan-email-otp-nhanh"
+    "email-tam-thoi-viet-nam",
+    "nhan-email-otp-nhanh",
+    "Tạo Email Tạm Thời Miễn Phí  Không Cần Đăng Ký",
+    "Nhận Email Ảo Nhanh | Tạo Email Tạm Thời Miễn Phí",
+    "Email Tạm Thời Dùng Ngay | Không Cần Đăng Ký",
+    "Tạo Email 10 Phút | Nhận Mã OTP, Kích Hoạt Tài Khoản",
+    "Tạo Email Ảo Miễn Phí | Bảo Mật, Tự Hủy Sau 10 Phút",
+    "Email Tạm Thời Cho Đăng Ký Web | Siêu Nhanh & Riêng Tư",
+    "Temp Email Cho Dev | Test App Nhanh Không Cần Gmail",
+    "Disposable Email API | Tạo Email Tạm Dùng Ngay",
+    "Temp Mail Dành Cho Kiểm Thử | Nhận Mail Giả Lập Tức Thì"
+
+
   ],
   "author": "Nhut",
   "license": "ISC",
