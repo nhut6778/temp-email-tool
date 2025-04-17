@@ -1,25 +1,25 @@
 {
-    "name": "temp-email-tool",
-    "version": "1.0.0",
-    "description": "A temporary email tool for email testing",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js",
-      "build": "echo 'No build step needed'",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-      "email",
-      "temp-email",
-      "tool"
-    ],
-    "author": "Nhut",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "ejs": "^3.1.6",
-      "nodemon": "^2.0.15"
-    }
+  "name": "temp-email-tool",
+  "version": "1.0.0",
+  "description": "A temporary email tool for email testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step needed'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email",
+    "temp-email",
+    "tool"
+  ],
+  "author": "Nhut",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "nodemon": "^2.0.15"
   }
-  
+}
