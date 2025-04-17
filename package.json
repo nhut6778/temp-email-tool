@@ -1,7 +1,7 @@
 {
   "name": "temp-email-tool",
   "version": "1.0.0",
-  "description": "A temporary email tool for email testing",
+  "description": "Tạo Email Tạm Thời Trong 10 Phút - Miễn Phí & Nhanh Chóng",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,8 +11,21 @@
   },
   "keywords": [
     "email",
+    "email-tam-thoi",
+    "temp-mail",
+    "email-ao",
+    "otp-email",
+    "disposable-email",
+    "nhan-ma-xac-thuc",
+    "10-minute-mail",
+    "email-tester",
+    "fake-email",
     "temp-email",
-    "tool"
+    "tool",
+    "email-tu-huy",
+    "temp-email-service",
+   "email-tam-thoi-viet-nam",
+    "nhan-email-otp-nhanh"
   ],
   "author": "Nhut",
   "license": "ISC",
